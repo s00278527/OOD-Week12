@@ -1,0 +1,55 @@
+﻿<Window x:Class="Week12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Movie Listings" FontSize="16" Margin="15" Grid.Column="0" Padding="15">
+                <ListBox x:Name="lbxDisplayMovies"  Height="260" FontSize="12" SelectionChanged="lbxDisplayMovies_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source = "{Binding ImageName}" Width="60" Height="90" Margin ="0,0,10,0"/>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16"/>
+                                    <TextBlock Text="{Binding Cast}" TextWrapping="Wrap"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </GroupBox>
+
+            <GroupBox Header="Movie Synopsis" FontSize="16" Margin="15" Grid.Column="1" Padding="15">
+                <TextBlock x:Name="tblSynopsis" FontSize="12" TextWrapping="Wrap" />
+            </GroupBox>
+        </Grid>
+
+        <GroupBox Header="Quick Book" Width="760" Grid.Row="1">
+            <DockPanel>
+                <TextBlock Text="Select movie from list above, choose date and tickets required" TextWrapping="Wrap" FontSize="10" Width="150" Height="30" VerticalAlignment="Bottom" Margin="10"/>
+                <DatePicker Width="100" Height="25" VerticalAlignment="Bottom" Margin="10"/>
+                <GroupBox Header="Available Seats" Margin="10">
+                    <TextBlock Text="100" VerticalAlignment="Bottom"/>
+                </GroupBox>
+                <GroupBox Header="Required Seats" Margin="10">
+                    <TextBox Text="0" VerticalAlignment="Bottom"/>
+                </GroupBox>
+                <Button Content="Book Seats" Height="25" Width="90" VerticalAlignment="Bottom" Margin="10"/>
+            </DockPanel>
+        </GroupBox>
+    </Grid>
+</Window>
