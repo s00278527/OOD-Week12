@@ -1,0 +1,15 @@
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\DataManagement.exe.config
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\DataManagement.exe
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\DataManagement.pdb
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\EntityFramework.dll
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\Week12.exe
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\Week12.pdb
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\Week12.exe.config
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\EntityFramework.xml
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\obj\Debug\DataManagement.csproj.AssemblyReference.cache
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\obj\Debug\DataManagement.csproj.CoreCompileInputs.cache
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\obj\Debug\DataMana.47CAD635.Up2Date
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\obj\Debug\DataManagement.exe
+C:\Users\UxueSAEZFERNANDEZ-ST\source\repos\OOD-Week12\Week12\DataManagement\obj\Debug\DataManagement.pdb
